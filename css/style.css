@@ -1,0 +1,152 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hammersmith One', sans-serif;
+  margin: 0%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: 0;
+  top: 0;
+}
+
+header nav div.portada {
+  width: 100%;
+  height: 250px;
+}
+
+header nav div.portada img.img-portada {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+header nav div.portada img.logo-cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 27px;
+  left: 580px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+header nav div.titulo-ppl {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  top: 250px;
+  background-color: #0c1a35;
+}
+
+header nav div.titulo-ppl h1.titulo-ppl-h1 {
+  height: 30px;
+  left: 213px;
+  top: 203px;
+  letter-spacing: 0.30em;
+  word-spacing: 0em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 14px;
+  color: rgba(40, 232, 250, 0.864);
+}
+
+main div.container {
+  margin: 300px 0 100px 0;
+  padding: 50px 0;
+}
+
+main div.container section.contenido-cv article div.secciones {
+  width: 100%;
+  height: 30px;
+  left: 0;
+  background: #C4C4C4;
+}
+
+main div.container section.contenido-cv article div.secciones h3.secciones-subtitulo-h3 {
+  color: #005677;
+  height: 17px;
+  margin-left: 12.45px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.30em;
+}
+
+main div.container section.contenido-cv ul li {
+  line-height: 30px;
+}
+
+main div.container section.contenido-cv ul li span {
+  font-weight: bold;
+}
+
+main div.container section.contenido-cv ul li p {
+  margin-left: 80px;
+  margin-top: 5px;
+  line-height: 30%;
+}
+
+main div.container section.contenido-cv span.lista-datos {
+  margin-left: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer div.footer {
+  width: 100%;
+  height: 45px;
+  left: 0;
+  background: #005677;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div.footer a.footer-contacto {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 550px;
+}
+
+footer div.footer div.footer-icon {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div.footer div.footer-icon i.social-icon {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-right: 30px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
